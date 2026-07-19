@@ -4,11 +4,12 @@ This repository contains my work and deliverables for the BinX Tech
 Artificial Intelligence and Machine Learning Internship.
 
 ## Repository Structure
-├── week1/
-│   └── day1_environment_setup.ipynb
-├── requirements.txt
-└── README.md
 
+- week1/
+  - day1_environment_setup.ipynb
+- requirements.txt
+- README.md
+  
 ## Week 1 - Python & Data Science Foundations
 
 **Topics covered this week (Days 1-5):**
