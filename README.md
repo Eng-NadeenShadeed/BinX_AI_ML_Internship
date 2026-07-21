@@ -43,7 +43,7 @@ During Week 1 (Days 1–5), the following topics were covered:
 |------|-------|--------|
 | Day 1 | Environment Setup (Python, Virtual Environment, Jupyter, Git) | ✅ Completed |
 | Day 2 | Python Fundamentals | ✅ Completed |
-| Day 3 | NumPy | ⏳ In Progress |
+| Day 3 | NumPy | ⏳ Upcoming |
 | Day 4 | Pandas | ⏳ Upcoming |
 | Day 5 | Matplotlib & Mini Notebook | ⏳ Upcoming |
 
