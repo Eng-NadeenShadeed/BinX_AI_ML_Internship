@@ -17,6 +17,12 @@ Week1/
 │   ├── day3_numpy.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
+|── Day 4/
+    ├── Data
+    |    ├── melb_data.csv
+│   ├── day4_pandas.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
 ├── requirements.txt
 ├── README.md
 └── .gitignore
