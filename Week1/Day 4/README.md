@@ -4,6 +4,12 @@
 
 Covered Pandas in depth - both Series and DataFrame - going well beyond the official requirements, using multiple resources including *Python for Data Analysis* (Wes McKinney), GeeksforGeeks articles, and hands-on practice.
 
+## Learning Objectives
+
+- Load a real dataset into a DataFrame and inspect its structure.
+- Select columns and filter rows by condition.
+- Clean missing values and duplicates, and aggregate data with `groupby`.
+
 ## Files
 
 - `day4_pandas.ipynb` - detailed notes and worked examples for every concept covered
@@ -37,6 +43,7 @@ Covered Pandas in depth - both Series and DataFrame - going well beyond the offi
   - `head()`
   - `tail()`
   - `info()`
+  - `shape()`
   - `describe()`
   - `memory_usage()`
 - Selection:
