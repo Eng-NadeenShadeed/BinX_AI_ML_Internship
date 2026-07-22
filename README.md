@@ -41,7 +41,7 @@ Each day's folder has its own `README.md` with a summary of that day's topics an
 - [x] Day 1 - Environment Setup (Python, venv, Jupyter, Git)
 - [x] Day 2 - Python Fundamentals
 - [x] Day 3 - NumPy
-- [ ] Day 4 - Pandas
+- [x] Day 4 - Pandas
 - [ ] Day 5 - Matplotlib & Mini-Notebook
 
 ## Notebook Structure
