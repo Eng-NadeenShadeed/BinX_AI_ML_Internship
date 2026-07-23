@@ -14,19 +14,32 @@ Week1/
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 ├── Day 3/
+│   ├── data/
+│   │   └── weekly_evaluations.csv
 │   ├── day3_numpy.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
-|── Day 4/
-    ├── Data
-    |    ├── melb_data.csv
+├── Day 4/
+│   ├── data/
+│   │   └── melb_data.csv
 │   ├── day4_pandas.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── Day 5/
+│   ├── day5_matplotlib.ipynb
+│   └── README.md
+├── Week1_Mini_Project/
+│   ├── data/
+│   │   └── Student_performance_data__.csv
+│   ├── week1_mini_project.ipynb
+│   └── README.md
+└── README.md
+requirements.txt
+README.md
+.gitignore
+
 ```
+See `Week1/README.md` for the full week summary and mini-project details.
 
 Each day's folder has its own `README.md` with a summary of that day's topics and deliverables. This root `README` gives the overall program overview and progress.
 
@@ -48,14 +61,8 @@ Each day's folder has its own `README.md` with a summary of that day's topics an
 - [x] Day 2 - Python Fundamentals
 - [x] Day 3 - NumPy
 - [x] Day 4 - Pandas
-- [ ] Day 5 - Matplotlib & Mini-Notebook
+- [x] Day 5 - Matplotlib 
 
-## Notebook Structure
-
-Starting from Day 2, each day's folder contains two notebooks:
-
-- `dayX_<topic>.ipynb` - detailed notes and worked examples for each concept covered
-- `Hands_On_Lab.ipynb` - the official required exercises for that day
 
 ## Environment Setup
 
