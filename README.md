@@ -63,6 +63,13 @@ Each day's folder has its own `README.md` with a summary of that day's topics an
 - [x] Day 4 - Pandas
 - [x] Day 5 - Matplotlib 
 
+## Week 2 - Math Foundations & EDA
+
+- [x] Day 1 - Descriptive Statistics
+- [ ] Day 2 - Probability & Distributions
+- [ ] Day 3 - Linear Algebra for ML
+- [ ] Day 4 - EDA Part 1
+- [ ] Day 5 - EDA Part 2 (graded milestone)
 
 ## Environment Setup
 
