@@ -34,6 +34,20 @@ Week1/
 │   ├── week1_mini_project.ipynb
 │   └── README.md
 └── README.md
+
+Week2/
+├── Day 1/
+│   ├── data/
+│   │   └── insurance.csv
+│   ├── day1_descriptive_stats.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+├── Day 2/
+│   ├── day2_probability.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+└── README.md
+
 requirements.txt
 README.md
 .gitignore
@@ -55,7 +69,15 @@ Each day's folder has its own `README.md` with a summary of that day's topics an
 - Matplotlib
 - Git & GitHub workflow
 
-## Progress
+## Week 2 - Math Foundations & EDA
+
+### Topics covered this week (Days 1-5):
+- Descriptive statistics
+- Probability & distributions
+- Linear algebra for ML
+- Exploratory Data Analysis (EDA) with Seaborn
+
+## Week 1 - Python & Data Science Foundations
 
 - [x] Day 1 - Environment Setup (Python, venv, Jupyter, Git)
 - [x] Day 2 - Python Fundamentals
@@ -66,7 +88,7 @@ Each day's folder has its own `README.md` with a summary of that day's topics an
 ## Week 2 - Math Foundations & EDA
 
 - [x] Day 1 - Descriptive Statistics
-- [ ] Day 2 - Probability & Distributions
+- [x] Day 2 - Probability & Distributions
 - [ ] Day 3 - Linear Algebra for ML
 - [ ] Day 4 - EDA Part 1
 - [ ] Day 5 - EDA Part 2 (graded milestone)
@@ -77,10 +99,11 @@ Python version: `3.10+`
 
 ### Libraries
 
-- NumPy
-- Pandas
-- Matplotlib
-- Jupyter
+NumPy
+Pandas
+Matplotlib
+SciPy
+Jupyter
 
 ### Install requirements
 
