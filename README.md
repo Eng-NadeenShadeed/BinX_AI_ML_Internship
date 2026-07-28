@@ -46,6 +46,10 @@ Week2/
 │   ├── day2_probability.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
+├── Day 3/
+│   ├── day3_linear_algebra.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
 └── README.md
 
 requirements.txt
@@ -89,7 +93,7 @@ Each day's folder has its own `README.md` with a summary of that day's topics an
 
 - [x] Day 1 - Descriptive Statistics
 - [x] Day 2 - Probability & Distributions
-- [ ] Day 3 - Linear Algebra for ML
+- [x] Day 3 - Linear Algebra for ML
 - [ ] Day 4 - EDA Part 1
 - [ ] Day 5 - EDA Part 2 (graded milestone)
 
