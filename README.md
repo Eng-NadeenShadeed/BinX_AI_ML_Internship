@@ -1,6 +1,8 @@
 # BinX Tech AI & ML Internship
 
-This repository contains my work and deliverables for the BinX Tech Artificial Intelligence and Machine Learning Internship.
+This repository contains my work, notes, hands-on labs, and mini-projects completed during the **BinX Tech Artificial Intelligence & Machine Learning Internship**. Each week focuses on a different stage of the machine learning pipeline, combining theoretical concepts with practical implementation in Jupyter Notebooks.
+
+---
 
 ## Repository Structure
 
@@ -50,66 +52,92 @@ Week2/
 │   ├── day3_linear_algebra.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
+├── Day 4/
+│   ├── data/
+│   │   └── insurance.csv
+│   ├── day4_eda_part1.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
 └── README.md
 
 requirements.txt
 README.md
 .gitignore
-
 ```
-See `Week1/README.md` for the full week summary and mini-project details.
 
-Each day's folder has its own `README.md` with a summary of that day's topics and deliverables. This root `README` gives the overall program overview and progress.
+See **Week1/README.md** and **Week2/README.md** for detailed summaries of each week's topics, hands-on labs, and deliverables.
 
-## Week 1 - Python & Data Science Foundations
+---
 
-### Topics covered this week (Days 1-5):
+# Week 1 - Python & Data Science Foundations
 
-- Python fundamentals
-- Virtual environments
-- Jupyter Notebook workflow
+### Topics Covered
+
+- Python Fundamentals
+- Virtual Environments
+- Jupyter Notebook Workflow
 - NumPy
 - Pandas
 - Matplotlib
-- Git & GitHub workflow
+- Git & GitHub Workflow
 
-## Week 2 - Math Foundations & EDA
+### Progress
 
-### Topics covered this week (Days 1-5):
-- Descriptive statistics
-- Probability & distributions
-- Linear algebra for ML
-- Exploratory Data Analysis (EDA) with Seaborn
-
-## Week 1 - Python & Data Science Foundations
-
-- [x] Day 1 - Environment Setup (Python, venv, Jupyter, Git)
+- [x] Day 1 - Environment Setup
 - [x] Day 2 - Python Fundamentals
 - [x] Day 3 - NumPy
 - [x] Day 4 - Pandas
-- [x] Day 5 - Matplotlib 
+- [x] Day 5 - Matplotlib
+- [x] Week 1 Mini Project
 
-## Week 2 - Math Foundations & EDA
+---
+
+# Week 2 - Math Foundations & Exploratory Data Analysis
+
+### Topics Covered
+
+- Descriptive Statistics
+- Probability & Distributions
+- Linear Algebra for Machine Learning
+- Exploratory Data Analysis (EDA)
+- Seaborn for Statistical Visualization
+- Univariate Analysis
+- Histograms
+- KDE Plots
+- Box Plots
+- Count Plots
+- Outlier Detection using the IQR Method
+
+### Progress
 
 - [x] Day 1 - Descriptive Statistics
 - [x] Day 2 - Probability & Distributions
 - [x] Day 3 - Linear Algebra for ML
-- [ ] Day 4 - EDA Part 1
-- [ ] Day 5 - EDA Part 2 (graded milestone)
+- [x] Day 4 - EDA Part 1: Distributions & Outliers
+- [ ] Day 5 - EDA Part 2: Bivariate Analysis & Correlation (Graded Milestone)
 
-## Environment Setup
+---
 
-Python version: `3.10+`
+# Environment Setup
 
-### Libraries
+**Python Version**
 
-NumPy
-Pandas
-Matplotlib
-SciPy
-Jupyter
+```
+Python 3.10+
+```
 
-### Install requirements
+## Main Libraries
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- SciPy
+- Jupyter Notebook
+
+---
+
+## Install Requirements
 
 ```bash
 pip install -r requirements.txt
