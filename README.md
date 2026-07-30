@@ -114,7 +114,7 @@ See **Week1/README.md** and **Week2/README.md** for detailed summaries of each w
 - [x] Day 2 - Probability & Distributions
 - [x] Day 3 - Linear Algebra for ML
 - [x] Day 4 - EDA Part 1: Distributions & Outliers
-- [ ] Day 5 - EDA Part 2: Bivariate Analysis & Correlation (Graded Milestone)
+- [x] Day 5 - EDA Part 2: Bivariate Analysis & Correlation (Graded Milestone)
 
 ---
 
