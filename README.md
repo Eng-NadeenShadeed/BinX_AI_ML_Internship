@@ -65,12 +65,21 @@ Week2/
 │   └── README.md
 └── README.md
 
+Week3/
+├── Day 1/
+│   ├── data/
+│   │   └── auto-mpg.csv
+│   ├── day1_supervised_learning_basics.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+└── README.md
+
 requirements.txt
 README.md
 .gitignore
 ```
 
-See **Week1/README.md** and **Week2/README.md** for detailed summaries of each week's topics, hands-on labs, and deliverables.
+See **Week1/README.md**, **Week2/README.md**, and **Week3/README.md** for detailed summaries of each week's topics, hands-on labs, and deliverables.
 
 ---
 
@@ -123,6 +132,28 @@ See **Week1/README.md** and **Week2/README.md** for detailed summaries of each w
 
 ---
 
+# Week 3 - Supervised Learning
+
+### Topics Covered
+
+- Supervised Learning Concepts
+- Regression vs. Classification
+- Scikit-learn API
+- Linear Regression
+- Logistic Regression
+- Decision Trees, Random Forests, SVM, k-NN
+- Model Evaluation & Comparison
+
+### Progress
+
+- [x] Day 1 - Supervised Learning Concepts & Scikit-learn API
+- [ ] Day 2 - Linear Regression
+- [ ] Day 3 - Logistic Regression & Classification
+- [ ] Day 4 - Trees, Forests, SVM, k-NN
+- [ ] Day 5 - Mini Project: First Trained & Evaluated Model
+
+---
+
 # Environment Setup
 
 **Python Version**
@@ -138,6 +169,7 @@ Python 3.10+
 - Matplotlib
 - Seaborn
 - SciPy
+- Scikit-learn
 - Jupyter Notebook
 
 ---
