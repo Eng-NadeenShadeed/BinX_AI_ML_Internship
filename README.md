@@ -72,6 +72,12 @@ Week3/
 │   ├── day1_supervised_learning_basics.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
+├── Day 2/
+|   ├── data/
+|   │   └── auto-mpg.csv
+|   ├── day2_linear_regression.ipynb
+|   ├── Hands_On_Lab.ipynb
+|   └── README.md
 └── README.md
 
 requirements.txt
