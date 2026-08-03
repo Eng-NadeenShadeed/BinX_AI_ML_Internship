@@ -132,27 +132,23 @@ See **Week1/README.md**, **Week2/README.md**, and **Week3/README.md** for detail
 
 ---
 
-# Week 3 - Supervised Learning
+# Week 3 - Supervised Learning (Phase 2)
 
 ### Topics Covered
 
-- Supervised Learning Concepts
-- Regression vs. Classification
-- Scikit-learn API
-- Linear Regression
-- Logistic Regression
+- Supervised Learning Concepts & the Scikit-learn API
+- Linear Regression (Simple & Multiple)
+- Logistic Regression & Classification
 - Decision Trees, Random Forests, SVM, k-NN
-- Model Evaluation & Comparison
+- Model Evaluation Metrics
 
 ### Progress
 
-- [x] Day 1 - Supervised Learning Concepts & Scikit-learn API
-- [ ] Day 2 - Linear Regression
+- [x] Day 1 - Supervised Learning Basics
+- [x] Day 2 - Linear Regression
 - [ ] Day 3 - Logistic Regression & Classification
-- [ ] Day 4 - Trees, Forests, SVM, k-NN
-- [ ] Day 5 - Mini Project: First Trained & Evaluated Model
-
----
+- [ ] Day 4 - Decision Trees, Random Forests, SVM, k-NN
+- [ ] Day 5 - Mini-Project (Trained & Evaluated Model)
 
 # Environment Setup
 
