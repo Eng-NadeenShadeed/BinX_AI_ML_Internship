@@ -73,11 +73,17 @@ Week3/
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 ├── Day 2/
-|   ├── data/
-|   │   └── auto-mpg.csv
-|   ├── day2_linear_regression.ipynb
-|   ├── Hands_On_Lab.ipynb
-|   └── README.md
+│   ├── data/
+│   │   └── auto-mpg.csv
+│   ├── day2_linear_regression.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+├── Day 3/
+│   ├── data/
+│   │   └── pima-indians-diabetes.csv
+│   ├── day3_logistic_regression.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
 └── README.md
 
 requirements.txt
@@ -140,21 +146,32 @@ See **Week1/README.md**, **Week2/README.md**, and **Week3/README.md** for detail
 
 # Week 3 - Supervised Learning (Phase 2)
 
+# Week 3 - Supervised Learning (Phase 2)
+
 ### Topics Covered
 
-- Supervised Learning Concepts & the Scikit-learn API
+- Supervised Learning Concepts
+- The Scikit-learn API
+- Train/Test Split
 - Linear Regression (Simple & Multiple)
-- Logistic Regression & Classification
-- Decision Trees, Random Forests, SVM, k-NN
-- Model Evaluation Metrics
+- Regression Metrics (MAE, RMSE, R²)
+- Logistic Regression
+- Binary Classification
+- The Sigmoid Function
+- Decision Threshold & Decision Boundary
+- Classification Metrics (Accuracy, Precision, Recall, F1-Score)
+- Confusion Matrix
+- AUC-ROC
+- Log Loss
+- Model Evaluation
 
 ### Progress
 
 - [x] Day 1 - Supervised Learning Basics
 - [x] Day 2 - Linear Regression
-- [ ] Day 3 - Logistic Regression & Classification
+- [x] Day 3 - Logistic Regression & Classification
 - [ ] Day 4 - Decision Trees, Random Forests, SVM, k-NN
-- [ ] Day 5 - Mini-Project (Trained & Evaluated Model)
+- [ ] Day 5 - Supervised Learning Mini Project
 
 # Environment Setup
 
