@@ -170,7 +170,7 @@ See **Week1/README.md**, **Week2/README.md**, and **Week3/README.md** for detail
 - [x] Day 1 - Supervised Learning Basics
 - [x] Day 2 - Linear Regression
 - [x] Day 3 - Logistic Regression & Classification
-- [ ] Day 4 - Decision Trees, Random Forests, SVM, k-NN
+- [x] Day 4 - Decision Trees, Random Forests, SVM, k-NN
 - [ ] Day 5 - Supervised Learning Mini Project
 
 # Environment Setup
