@@ -59,7 +59,8 @@ Week2/
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 ├── Day 5/
-│   ├── data/insurance.csv
+│   ├── data/
+│   │   └── insurance.csv
 │   ├── day5_correlation.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
@@ -67,21 +68,25 @@ Week2/
 
 Week3/
 ├── Day 1/
-│   ├── data/
-│   │   └── auto-mpg.csv
 │   ├── day1_supervised_learning_basics.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 ├── Day 2/
 │   ├── data/
-│   │   └── auto-mpg.csv
+│   │   └── pimaindiansdiabetes.csv
 │   ├── day2_linear_regression.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 ├── Day 3/
 │   ├── data/
-│   │   └── pima-indians-diabetes.csv
+│   │   └── pimaindiansdiabetes.csv
 │   ├── day3_logistic_regression.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+├── Day 4/
+│   ├── data/
+│   │   └── pima-indians-diabetes.csv
+│   ├── day4_trees_forests_svm_knn.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 └── README.md
@@ -91,11 +96,9 @@ README.md
 .gitignore
 ```
 
-See **Week1/README.md**, **Week2/README.md**, and **Week3/README.md** for detailed summaries of each week's topics, hands-on labs, and deliverables.
-
 ---
 
-# Week 1 - Python & Data Science Foundations
+# Week 1 — Python & Data Science Foundations
 
 ### Topics Covered
 
@@ -109,16 +112,16 @@ See **Week1/README.md**, **Week2/README.md**, and **Week3/README.md** for detail
 
 ### Progress
 
-- [x] Day 1 - Environment Setup
-- [x] Day 2 - Python Fundamentals
-- [x] Day 3 - NumPy
-- [x] Day 4 - Pandas
-- [x] Day 5 - Matplotlib
+- [x] Day 1 — Environment Setup
+- [x] Day 2 — Python Fundamentals
+- [x] Day 3 — NumPy
+- [x] Day 4 — Pandas
+- [x] Day 5 — Matplotlib
 - [x] Week 1 Mini Project
 
 ---
 
-# Week 2 - Math Foundations & Exploratory Data Analysis
+# Week 2 — Math Foundations & Exploratory Data Analysis
 
 ### Topics Covered
 
@@ -127,51 +130,45 @@ See **Week1/README.md**, **Week2/README.md**, and **Week3/README.md** for detail
 - Linear Algebra for Machine Learning
 - Exploratory Data Analysis (EDA)
 - Seaborn for Statistical Visualization
-- Univariate Analysis
-- Histograms
-- KDE Plots
-- Box Plots
-- Count Plots
-- Outlier Detection using the IQR Method
+- Univariate & Bivariate Analysis
+- Outlier Detection (IQR Method)
+- Correlation Analysis (Pearson, Spearman, heatmaps)
 
 ### Progress
 
-- [x] Day 1 - Descriptive Statistics
-- [x] Day 2 - Probability & Distributions
-- [x] Day 3 - Linear Algebra for ML
-- [x] Day 4 - EDA Part 1: Distributions & Outliers
-- [x] Day 5 - EDA Part 2: Bivariate Analysis & Correlation (Graded Milestone)
+- [x] Day 1 — Descriptive Statistics
+- [x] Day 2 — Probability & Distributions
+- [x] Day 3 — Linear Algebra for ML
+- [x] Day 4 — EDA Part 1: Distributions & Outliers
+- [x] Day 5 — EDA Part 2: Bivariate Analysis & Correlation *(Graded Milestone)*
 
 ---
 
-# Week 3 - Supervised Learning (Phase 2)
-
-# Week 3 - Supervised Learning (Phase 2)
+# Week 3 — Supervised Learning
 
 ### Topics Covered
 
-- Supervised Learning Concepts
-- The Scikit-learn API
-- Train/Test Split
-- Linear Regression (Simple & Multiple)
-- Regression Metrics (MAE, RMSE, R²)
-- Logistic Regression
-- Binary Classification
-- The Sigmoid Function
-- Decision Threshold & Decision Boundary
-- Classification Metrics (Accuracy, Precision, Recall, F1-Score)
-- Confusion Matrix
-- AUC-ROC
-- Log Loss
-- Model Evaluation
+- Supervised Learning Concepts & Scikit-learn API
+- Linear Regression (simple, multiple, regularization)
+- Logistic Regression & Binary Classification
+- Decision Trees (CART, Gini Impurity, max_depth)
+- Random Forest (Bagging, Feature Importances)
+- Support Vector Machines (margin, kernel trick, RBF)
+- k-Nearest Neighbors (lazy learning, distance, k sweep)
+- Bias–Variance Trade-off
+- Model Evaluation: Confusion Matrix, Precision, Recall, F1-score
+- Fair Model Comparison (same split, same metric)
 
 ### Progress
 
-- [x] Day 1 - Supervised Learning Basics
-- [x] Day 2 - Linear Regression
-- [x] Day 3 - Logistic Regression & Classification
-- [x] Day 4 - Decision Trees, Random Forests, SVM, k-NN
-- [ ] Day 5 - Supervised Learning Mini Project
+- [x] Day 1 — Supervised Learning Basics & Scikit-learn API
+- [x] Day 2 — Linear Regression
+- [x] Day 3 — Logistic Regression
+- [x] Day 4 — Trees, Forests, SVMs & k-NN
+- [ ] Day 5 — Model Tuning & Cross-Validation
+- [ ] Week 3 Mini Project *(First Trained & Evaluated Model)*
+
+---
 
 # Environment Setup
 
