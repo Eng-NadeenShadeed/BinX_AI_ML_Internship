@@ -73,13 +73,13 @@ Week3/
 │   └── README.md
 ├── Day 2/
 │   ├── data/
-│   │   └── pimaindiansdiabetes.csv
+│   │   └── auto-mpg.csv
 │   ├── day2_linear_regression.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 ├── Day 3/
 │   ├── data/
-│   │   └── pimaindiansdiabetes.csv
+│   │   └── pima-indians-diabetes.csv
 │   ├── day3_logistic_regression.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
@@ -87,6 +87,11 @@ Week3/
 │   ├── data/
 │   │   └── pima-indians-diabetes.csv
 │   ├── day4_trees_forests_svm_knn.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+├── Day 5/
+│   ├── data/
+│   │   └── heart_disease_uci.csv
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 └── README.md
@@ -149,24 +154,29 @@ README.md
 ### Topics Covered
 
 - Supervised Learning Concepts & Scikit-learn API
-- Linear Regression (simple, multiple, regularization)
+- Features (`X`) and Target (`y`)
+- Regression vs Classification
+- Train/Test Split and Model Evaluation
+- Linear Regression
 - Logistic Regression & Binary Classification
-- Decision Trees (CART, Gini Impurity, max_depth)
-- Random Forest (Bagging, Feature Importances)
-- Support Vector Machines (margin, kernel trick, RBF)
-- k-Nearest Neighbors (lazy learning, distance, k sweep)
+- Sigmoid Function and Probability Estimation
+- Classification Metrics: Confusion Matrix, Precision, Recall, F1-score, AUC-ROC
+- Decision Trees
+- Random Forest and Ensemble Learning
+- Support Vector Machines (SVM)
+- k-Nearest Neighbors (k-NN)
 - Bias–Variance Trade-off
-- Model Evaluation: Confusion Matrix, Precision, Recall, F1-score
-- Fair Model Comparison (same split, same metric)
+- Feature Importance
+- Fair Model Comparison
+- Complete Machine Learning Pipeline: EDA → Preprocessing → Modeling → Evaluation
 
 ### Progress
 
 - [x] Day 1 — Supervised Learning Basics & Scikit-learn API
 - [x] Day 2 — Linear Regression
-- [x] Day 3 — Logistic Regression
+- [x] Day 3 — Logistic Regression & Classification Metrics
 - [x] Day 4 — Trees, Forests, SVMs & k-NN
-- [ ] Day 5 — Model Tuning & Cross-Validation
-- [ ] Week 3 Mini Project *(First Trained & Evaluated Model)*
+- [x] Day 5 — End-to-End Heart Disease Prediction Mini Project
 
 ---
 
