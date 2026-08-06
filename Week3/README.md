@@ -39,6 +39,7 @@ Week3/
 │   └── README.md
 
 └── README.md   (this file)
+```
 
 ## Day-by-Day Breakdown
 
