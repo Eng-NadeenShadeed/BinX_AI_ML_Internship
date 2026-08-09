@@ -12,6 +12,8 @@ The learning notebook worked through these concepts using the Pima Diabetes data
 
 ---
 
+## Dataset 
+
 | Notebook     | Dataset                        |       Size | Task                   |
 | ------------ | ------------------------------ | ---------: | ---------------------- |
 | Learning     | Pima Indians Diabetes (Week 3) |   768 rows | Binary classification  |
