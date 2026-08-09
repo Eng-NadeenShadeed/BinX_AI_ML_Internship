@@ -96,6 +96,13 @@ Week3/
 │   └── README.md
 └── README.md
 
+Week4/
+├── Day 1/
+│   ├── day1_train_val_test_splits.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+└── README.md
+
 requirements.txt
 README.md
 .gitignore
@@ -177,6 +184,29 @@ README.md
 - [x] Day 3 — Logistic Regression & Classification Metrics
 - [x] Day 4 — Trees, Forests, SVMs & k-NN
 - [x] Day 5 — End-to-End Heart Disease Prediction Mini Project
+
+---
+# Week 4 — Model Evaluation, Tuning & Pipelines
+
+### Topics Covered
+
+- Train / Validation / Test Splits
+- Stratified Splitting & Class Balance Verification
+- Model Selection on Validation Set
+- Hyperparameter Tuning Without Data Leakage
+- Cross-Validation *(coming)*
+- Bias–Variance Trade-off *(coming)*
+- Feature Engineering *(coming)*
+- GridSearchCV & RandomizedSearchCV *(coming)*
+- Scikit-learn Pipelines & ColumnTransformer *(coming)*
+
+### Progress
+
+- [x] Day 1 — Train / Validation / Test Splits
+- [ ] Day 2 — Cross-Validation
+- [ ] Day 3 — Bias–Variance Trade-off & Diagnosing Model Fit
+- [ ] Day 4 — Feature Engineering & Hyperparameter Tuning
+- [ ] Day 5 — Scikit-learn Pipelines *(Graded Milestone)*
 
 ---
 
