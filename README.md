@@ -101,6 +101,10 @@ Week4/
 │   ├── day1_train_val_test_splits.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
+├── Day 2/
+│   ├── day2_cross_validation.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
 └── README.md
 
 requirements.txt
@@ -194,7 +198,7 @@ README.md
 - Stratified Splitting & Class Balance Verification
 - Model Selection on Validation Set
 - Hyperparameter Tuning Without Data Leakage
-- Cross-Validation *(coming)*
+-  Cross-Validation (k-fold, StratifiedKFold, mean ± std)
 - Bias–Variance Trade-off *(coming)*
 - Feature Engineering *(coming)*
 - GridSearchCV & RandomizedSearchCV *(coming)*
@@ -203,7 +207,7 @@ README.md
 ### Progress
 
 - [x] Day 1 — Train / Validation / Test Splits
-- [ ] Day 2 — Cross-Validation
+- [X] Day 2 — Cross-Validation
 - [ ] Day 3 — Bias–Variance Trade-off & Diagnosing Model Fit
 - [ ] Day 4 — Feature Engineering & Hyperparameter Tuning
 - [ ] Day 5 — Scikit-learn Pipelines *(Graded Milestone)*
