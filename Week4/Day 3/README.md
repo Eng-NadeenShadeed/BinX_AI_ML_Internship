@@ -48,11 +48,11 @@ on what the training score says alongside it.
 |------|-----------|-------------|
 | Overfit | max_depth=None | Train=1.000, Val=0.832, Gap=0.168 |
 | Underfit | max_depth=1 | Train=0.576, Val=0.565, Gap=0.011 |
-| Fix | max_depth=5 | Train=0.942, Val=0.898, Gap=0.044 ✅ |
+| Fix | max_depth=5 | Train=0.942, Val=0.898, Gap=0.044  |
 | Complexity experiment | depths 1→None | Val peaked at depth=5 |
 | Ridge vs Lasso | GPA regression | Lasso zeroed 4/12 features, Val R²=0.955 |
 | Learning curve | max_depth=None | Gap stayed wide → complexity problem, not data |
-| Final test | Opened once | Test F1 = 0.905 ✅ |
+| Final test | Opened once | Test F1 = 0.905  |
 
 ---
 
