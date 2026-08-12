@@ -76,11 +76,11 @@ even with more data — the root cause was complexity, not data quantity.
 
 ## Files
 
-| File | Description |
-|------|-------------|
-| `day3_bias_variance.ipynb` | Learning notebook — theory, diagnostics, experiments, deep dives |
-| `Hands_On_Lab.ipynb` | Graded lab — full diagnosis workflow on Student Performance |
-| `README.md` | This file |
+```text
+Day 3/
+├── day3_bias_variance.ipynb
+├── Hands_On_Lab.ipynb
+└── README.md
 
 ---
 
