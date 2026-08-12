@@ -109,6 +109,10 @@ Week4/
 │   ├── day3_bias_variance.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
+├── Day 4/
+|   ├── day4_feature_engineering_hyperparameter_tuning.ipynb
+|   ├── Hands_On_Lab.ipynb
+|   └── README.md
 └── README.md
 
 requirements.txt
@@ -204,8 +208,8 @@ README.md
 - Hyperparameter Tuning Without Data Leakage
 -  Cross-Validation (k-fold, StratifiedKFold, mean ± std)
 - Bias–Variance Trade-off 
-- Feature Engineering *(coming)*
-- GridSearchCV & RandomizedSearchCV *(coming)*
+- Feature Engineering 
+- GridSearchCV & RandomizedSearchCV 
 - Scikit-learn Pipelines & ColumnTransformer *(coming)*
 
 ### Progress
@@ -213,7 +217,7 @@ README.md
 - [x] Day 1 — Train / Validation / Test Splits
 - [x] Day 2 — Cross-Validation
 - [x] Day 3 — Bias–Variance Trade-off & Diagnosing Model Fit
-- [ ] Day 4 — Feature Engineering & Hyperparameter Tuning
+- [x] Day 4 — Feature Engineering & Hyperparameter Tuning
 - [ ] Day 5 — Scikit-learn Pipelines *(Graded Milestone)*
 
 ---
