@@ -113,6 +113,11 @@ Week4/
 |   ├── day4_feature_engineering_hyperparameter_tuning.ipynb
 |   ├── Hands_On_Lab.ipynb
 |   └── README.md
+├── Day 5/
+│   ├── data/
+│   │   └── insurance.csv
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
 └── README.md
 
 requirements.txt
@@ -198,19 +203,17 @@ README.md
 - [x] Day 5 — End-to-End Heart Disease Prediction Mini Project
 
 ---
-# Week 4 — Model Evaluation, Tuning & Pipelines
-
 ### Topics Covered
 
 - Train / Validation / Test Splits
 - Stratified Splitting & Class Balance Verification
 - Model Selection on Validation Set
 - Hyperparameter Tuning Without Data Leakage
--  Cross-Validation (k-fold, StratifiedKFold, mean ± std)
-- Bias–Variance Trade-off 
-- Feature Engineering 
-- GridSearchCV & RandomizedSearchCV 
-- Scikit-learn Pipelines & ColumnTransformer *(coming)*
+- Cross-Validation (k-fold, StratifiedKFold, mean ± std)
+- Bias–Variance Trade-off & Diagnosing Model Fit
+- Feature Engineering & Domain-Informed Features
+- GridSearchCV & RandomizedSearchCV
+- Scikit-learn Pipelines & ColumnTransformer
 
 ### Progress
 
@@ -218,7 +221,7 @@ README.md
 - [x] Day 2 — Cross-Validation
 - [x] Day 3 — Bias–Variance Trade-off & Diagnosing Model Fit
 - [x] Day 4 — Feature Engineering & Hyperparameter Tuning
-- [ ] Day 5 — Scikit-learn Pipelines *(Graded Milestone)*
+- [x] Day 5 — Scikit-learn Pipelines *(Graded Milestone)*
 
 ---
 
