@@ -79,6 +79,8 @@ Day 5/
 ├── data/
 │   └── insurance.csv
 └── Hands_On_Lab.ipynb
+|
+└── README.md
 ```
 
 ---
