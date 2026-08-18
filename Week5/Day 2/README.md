@@ -14,6 +14,8 @@ The Hands-On Lab was completed during an in-person session.
 
 ---
 
+## Files
+
 ```text
 Day 2/
 ├── day2_dbscan_hierarchical.ipynb
