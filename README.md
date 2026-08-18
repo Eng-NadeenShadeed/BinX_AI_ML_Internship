@@ -119,7 +119,20 @@ Week4/
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
 └── README.md
-
+Week5/
+├── Day 1/
+│   ├── day1_kmeans_clustering.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+├── Day 2/
+│   ├── day2_dbscan_hierarchical.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+├── Day 3/
+│   ├── day3_pca.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+└── README.md
 requirements.txt
 README.md
 .gitignore
@@ -203,6 +216,8 @@ README.md
 - [x] Day 5 — End-to-End Heart Disease Prediction Mini Project
 
 ---
+# Week 4 — Model Evaluation & Optimization
+
 ### Topics Covered
 
 - Train / Validation / Test Splits
@@ -222,6 +237,32 @@ README.md
 - [x] Day 3 — Bias–Variance Trade-off & Diagnosing Model Fit
 - [x] Day 4 — Feature Engineering & Hyperparameter Tuning
 - [x] Day 5 — Scikit-learn Pipelines *(Graded Milestone)*
+
+---
+---
+
+# Week 5 — Unsupervised Learning
+
+### Topics Covered
+
+- Supervised vs Unsupervised Learning — the fundamental shift
+- K-Means Clustering: centroid assignment, elbow method, silhouette score
+- Cluster interpretation and segment profiling
+- DBSCAN: density-based clustering, noise detection, eps and min_samples
+- Hierarchical Clustering: dendrograms, Ward linkage, cut height selection
+- Choosing the right clustering method per data shape
+- The curse of dimensionality
+- Principal Component Analysis (PCA): principal components, variance, loadings
+- Explained variance ratio and the 95% rule
+- Dimensionality reduction for visualization and modelling
+
+### Progress
+
+- [x] Day 1 — K-Means Clustering
+- [x] Day 2 — DBSCAN & Hierarchical Clustering
+- [x] Day 3 — Dimensionality Reduction with PCA
+- [ ] Day 4 — t-SNE & Anomaly Detection
+- [ ] Day 5 — Phase 3 Project Selection & Sprint Planning
 
 ---
 
