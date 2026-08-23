@@ -1,9 +1,9 @@
 # Week 6 — Day 1: Sprint 1 Planning, Neural Network Foundations & Baseline
 
 ## Overview
-Day 1 of Week 6 covers two things: formal Sprint 1 planning with a recorded
-Random Forest baseline, and an introduction to the core building blocks of
-neural networks — the neuron, layers, and learned parameters.
+Day 1 of Week 6 covers Sprint 1 planning with a recorded Random Forest
+baseline, and an introduction to the core building blocks of neural
+networks — the neuron, layers, and learned parameters.
 
 ## Files
 | File | Description |
@@ -11,13 +11,15 @@ neural networks — the neuron, layers, and learned parameters.
 | `day1_sprint_planning_baseline.ipynb` | Sprint plan + NN foundations + baseline model + recorded metrics |
 
 ## Topics Covered
-- Agile Sprint structure — Goal, Backlog, Definition of Done
+- Agile Sprint structure — Goal, Backlog, Definition of Done, Stand-up format
 - Why deep learning and when it is appropriate vs classical ML
 - The neuron: weighted sum + bias + activation (the Week 2 dot product)
+- Numerical neuron example
 - Layers: input, hidden, output — what "deep" means
 - Weights and biases as the learned parameters
+- The training cycle: Inputs → Prediction → Loss → Parameter Updates
 - Reproducing the Random Forest pipeline from the cardiac monitoring project
-- Recording validation and test metrics as the Sprint 1 target
+- Recording validation and test metrics as the Sprint 1 reference point
 
 ## Baseline Results (Random Forest)
 
@@ -29,6 +31,7 @@ neural networks — the neuron, layers, and learned parameters.
 | F1-score | 0.9200 | 0.9005 |
 | AUC-ROC | 0.9440 | 0.9427 |
 
-## Sprint 1 Target
-The neural network built in Days 2–5 needs to match or exceed the test
-F1-score of **0.9005** and AUC-ROC of **0.9427**.
+## Sprint 1 Reference Point
+The neural network built in Days 2–5 will be evaluated against these
+numbers to determine whether it provides a meaningful improvement.
+The test set is closed until the final evaluation in Day 5.
