@@ -1,18 +1,21 @@
-# Week 6 — Day 1: Sprint 1 Planning & Baseline
+# Week 6 — Day 1: Sprint 1 Planning, Neural Network Foundations & Baseline
 
 ## Overview
-The first day of Week 6 focuses on planning Sprint 1 and recording the
-Random Forest baseline that the neural network will be compared against
-throughout the week.
+Day 1 of Week 6 covers two things: formal Sprint 1 planning with a recorded
+Random Forest baseline, and an introduction to the core building blocks of
+neural networks — the neuron, layers, and learned parameters.
 
 ## Files
 | File | Description |
 |------|-------------|
-| `day1_sprint_planning_baseline.ipynb` | Sprint plan + baseline model + recorded metrics |
+| `day1_sprint_planning_baseline.ipynb` | Sprint plan + NN foundations + baseline model + recorded metrics |
 
 ## Topics Covered
 - Agile Sprint structure — Goal, Backlog, Definition of Done
-- Why a baseline is required before any deep learning work
+- Why deep learning and when it is appropriate vs classical ML
+- The neuron: weighted sum + bias + activation (the Week 2 dot product)
+- Layers: input, hidden, output — what "deep" means
+- Weights and biases as the learned parameters
 - Reproducing the Random Forest pipeline from the cardiac monitoring project
 - Recording validation and test metrics as the Sprint 1 target
 
