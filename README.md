@@ -7,135 +7,153 @@ This repository contains my work, notes, hands-on labs, and mini-projects comple
 ## Repository Structure
 
 ```text
-Week1/
-├── Day 1/
-│   ├── day1_environment_setup.ipynb
+BinX_AI_ML_Internship/
+│
+├── Cardiac_Project/               ← Live project — grows every week
+│   ├── Data/
+│   │   └── heart.csv
+│   ├── cardiac_monitoring.ipynb   ← EDA + classical ML baseline (Weeks 3–5)
 │   └── README.md
-├── Day 2/
-│   ├── day2_python_fundamentals.ipynb
-│   ├── Hands_On_Lab.ipynb
+│
+├── Week1/
+│   ├── Day1/
+│   │   ├── day1_environment_setup.ipynb
+│   │   └── README.md
+│   ├── Day2/
+│   │   ├── day2_python_fundamentals.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day3/
+│   │   ├── data/weekly_evaluations.csv
+│   │   ├── day3_numpy.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day4/
+│   │   ├── data/melb_data.csv
+│   │   ├── day4_pandas.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day5/
+│   │   ├── day5_matplotlib.ipynb
+│   │   └── README.md
+│   ├── Week1_Mini_Project/
+│   │   ├── data/Student_performance_data__.csv
+│   │   ├── week1_mini_project.ipynb
+│   │   └── README.md
 │   └── README.md
-├── Day 3/
-│   ├── data/
-│   │   └── weekly_evaluations.csv
-│   ├── day3_numpy.ipynb
-│   ├── Hands_On_Lab.ipynb
+│
+├── Week2/
+│   ├── Day1/
+│   │   ├── data/insurance.csv
+│   │   ├── day1_descriptive_stats.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day2/
+│   │   ├── day2_probability.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day3/
+│   │   ├── day3_linear_algebra.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day4/
+│   │   ├── data/insurance.csv
+│   │   ├── day4_eda_part1.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day5/
+│   │   ├── data/insurance.csv
+│   │   ├── day5_correlation.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
 │   └── README.md
-├── Day 4/
-│   ├── data/
-│   │   └── melb_data.csv
-│   ├── day4_pandas.ipynb
-│   ├── Hands_On_Lab.ipynb
+│
+├── Week3/
+│   ├── Day1/
+│   │   ├── day1_supervised_learning_basics.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day2/
+│   │   ├── data/auto-mpg.csv
+│   │   ├── day2_linear_regression.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day3/
+│   │   ├── data/pima-indians-diabetes.csv
+│   │   ├── day3_logistic_regression.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day4/
+│   │   ├── data/pima-indians-diabetes.csv
+│   │   ├── day4_trees_forests_svm_knn.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day5/
+│   │   ├── data/heart_disease_uci.csv
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
 │   └── README.md
-├── Day 5/
-│   ├── day5_matplotlib.ipynb
+│
+├── Week4/
+│   ├── Day1/
+│   │   ├── day1_train_val_test_splits.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day2/
+│   │   ├── day2_cross_validation.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day3/
+│   │   ├── day3_bias_variance.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day4/
+│   │   ├── day4_feature_engineering_hyperparameter_tuning.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day5/
+│   │   ├── data/insurance.csv
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
 │   └── README.md
-├── Week1_Mini_Project/
-│   ├── data/
-│   │   └── Student_performance_data__.csv
-│   ├── week1_mini_project.ipynb
-│   └── README.md
-└── README.md
-
-Week2/
-├── Day 1/
-│   ├── data/
-│   │   └── insurance.csv
-│   ├── day1_descriptive_stats.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 2/
-│   ├── day2_probability.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 3/
-│   ├── day3_linear_algebra.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 4/
-│   ├── data/
-│   │   └── insurance.csv
-│   ├── day4_eda_part1.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 5/
-│   ├── data/
-│   │   └── insurance.csv
-│   ├── day5_correlation.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-└── README.md
-
-Week3/
-├── Day 1/
-│   ├── day1_supervised_learning_basics.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 2/
-│   ├── data/
-│   │   └── auto-mpg.csv
-│   ├── day2_linear_regression.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 3/
-│   ├── data/
-│   │   └── pima-indians-diabetes.csv
-│   ├── day3_logistic_regression.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 4/
-│   ├── data/
-│   │   └── pima-indians-diabetes.csv
-│   ├── day4_trees_forests_svm_knn.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 5/
-│   ├── data/
-│   │   └── heart_disease_uci.csv
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-└── README.md
-
-Week4/
-├── Day 1/
-│   ├── day1_train_val_test_splits.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 2/
-│   ├── day2_cross_validation.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 3/
-│   ├── day3_bias_variance.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day 4/
-|   ├── day4_feature_engineering_hyperparameter_tuning.ipynb
-|   ├── Hands_On_Lab.ipynb
-|   └── README.md
-├── Day 5/
-│   ├── data/
-│   │   └── insurance.csv
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-└── README.md
-Week5/
-├── Day 1/
+│
+├── Week5/
+│   ├── Day1/
 │   ├── day1_kmeans_clustering.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
-├── Day 2/
+├── Day2/
 │   ├── day2_dbscan_hierarchical.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
-├── Day 3/
+├── Day3/
 │   ├── day3_pca.ipynb
 │   ├── Hands_On_Lab.ipynb
 │   └── README.md
+├── Day4/
+│   ├── day4_tsne_anomaly.ipynb
+│   ├── Hands_On_Lab.ipynb
+│   └── README.md
+├── Day5/
+│   ├──Cardiac_Patient_Monitoring_System_Project_Roadmap_README.
+│   
 └── README.md
-requirements.txt
-README.md
-.gitignore
+│
+├── Week6/
+│   ├── Day1/
+│   │   ├── day1_sprint_planning_baseline.ipynb
+│   │   └── README.md
+│   ├── Day2/
+│   │   ├── day2_activations_forward_pass.ipynb
+│   │   └── README.md
+│   ├── Day3/
+│   │   ├── day3_training_mechanics.ipynb
+│   │   └── README.md
+│   └── README.md
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
 ---
@@ -261,27 +279,43 @@ README.md
 - [x] Day 1 — K-Means Clustering
 - [x] Day 2 — DBSCAN & Hierarchical Clustering
 - [x] Day 3 — Dimensionality Reduction with PCA
-- [ ] Day 4 — t-SNE & Anomaly Detection
-- [ ] Day 5 — Phase 3 Project Selection & Sprint Planning
+- [x] Day 4 — t-SNE & Anomaly Detection
+- [x] Day 5 — Phase 3 Project Selection & Sprint Planning
 
 ---
+## Week 6 — Deep Learning (Sprint 1)
+ 
+### Topics Covered
 
-# Environment Setup
+- Sprint 1 planning — goal, backlog, definition of done
+- Why deep learning and when it applies vs classical ML
+- The neuron: weighted sum + bias + activation
+- Layers: input, hidden, output — what "deep" means
+- Activation functions: ReLU, Sigmoid, Tanh, Softmax
+- Forward propagation — data flow through the network
+- Loss functions: Binary Cross-Entropy, MSE
+- Backpropagation — gradient computation via chain rule
+- Gradient descent & the learning rate
+- Optimizers: Adam vs SGD
+- Epochs, batches, and the training loop
 
-**Python Version**
+### Progress
 
-```
-Python 3.10+
-```
-
-## Main Libraries
-
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- SciPy
+- [x] Day 1 — Sprint Planning, NN Foundations & Baseline
+- [x] Day 2 — Activations & Forward Propagation
+- [x] Day 3 — Backpropagation, Gradient Descent & Optimizers
+- [ ] Day 4 — Building & Training a Network in Keras
+- [ ] Day 5 — Tuning, EarlyStopping & Sprint Review
+---
+ 
+## Environment Setup
+ 
+**Python Version:** 3.11
+ 
+**Main Libraries:**
+- NumPy, Pandas, Matplotlib, Seaborn, SciPy
 - Scikit-learn
+- TensorFlow 2.21
 - Jupyter Notebook
 
 ---
