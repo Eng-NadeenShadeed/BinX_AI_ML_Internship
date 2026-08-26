@@ -169,11 +169,11 @@ feature engineering begins.
 
 | Model | Accuracy | Precision | Recall | F1 (class 1) | AUC-ROC | CV F1 Mean |
 |---|---|---|---|---|---|---|
-| Random Forest | 0.832 | 0.831 | 0.832 | 0.831 | 0.898 | 0.862 |
-| SVM | 0.815 | 0.815 | 0.815 | 0.815 | 0.888 | 0.869 |
-| k-NN | 0.788 | 0.788 | 0.788 | 0.788 | 0.862 | 0.857 |
-| Logistic Regression (baseline) | 0.783 | 0.790 | 0.783 | 0.800 | 0.895 | 0.870 |
-| Decision Tree | 0.766 | 0.766 | 0.766 | 0.766 | 0.821 | 0.825 |
+| Random Forest | 0.842 | 0.841 | 0.882 | 0.861 | 0.902 | 0.871 |
+| SVM | 0.815 | 0.833 | 0.833 | 0.833 | 0.884 | 0.872 |
+| k-NN | 0.821 | 0.829 | 0.853 | 0.841 | 0.868 | 0.856 |
+| Decision Tree | 0.815 | 0.821 | 0.853 | 0.837 | 0.862 | 0.845 |
+| Logistic Regression (baseline) | 0.793 | 0.827 | 0.794 | 0.810 | 0.895 | — |
 
 > All models evaluated on the same train / validation split using original 11 features.
 
@@ -215,11 +215,11 @@ comparison upon execution.
 
 | Metric | Value |
 |---|---|
-| Accuracy | 0.86 |
-| Precision (class 1) | 0.87 |
-| Recall (class 1) | 0.89 |
-| F1-score (class 1) | 0.88 |
-| AUC-ROC | 0.916 |
+| Accuracy | 0.90 |
+| Precision (class 1) | 0.89 |
+| Recall (class 1) | 0.93 |
+| F1-score (class 1) | 0.91 |
+| AUC-ROC | 0.9248 |
 
 ### Confusion Matrix
 
@@ -227,12 +227,12 @@ comparison upon execution.
                     Predicted
                  No Disease   Disease
 Actual
-No Disease           68          14
-Disease              11          91
+No Disease           70          12
+Disease              7           95
 ```
 
-> 91 out of 102 patients with heart disease were correctly identified.  
-> The 11 False Negatives represent the most important error type in a screening
+> 95 out of 102 patients with heart disease were correctly identified.  
+> The 7 False Negatives represent the most important error type in a screening  
 > context — patients with disease classified as healthy.
 
 ---
@@ -244,9 +244,12 @@ Disease              11          91
 - Patients with `ASY` chest pain had a ~79 % heart disease rate vs ~14 % for `ATA`.
 - Patients with exercise-induced angina had an ~85 % heart disease rate vs ~35 % without.
 - `Flat` ST slope: ~83 % disease rate; `Up` slope: ~20 % disease rate.
-- `HRReserve` and `MaxHR_pct` appeared among the top 10 feature importances,
-  confirming that the engineered Age–MaxHR interaction carries additional signal
-  beyond the raw columns alone.
+- Feature engineering (4 added features) did not outperform the original 
+  11 features on the validation set. The default Random Forest on original 
+  features was selected as the final model.
+- The feature importance analysis confirmed the EDA findings: `ST_Slope_Up`, 
+  `ST_Slope_Flat`, `ChestPainType_ASY`, `MaxHR`, and `Oldpeak` are the 
+  top five contributors to the winning model's decisions.
 - The dual-tuning structure (Sections 5.9 vs 5.10) isolates the contribution of
   feature engineering from hyperparameter tuning, making the comparison rigorous
   and interpretable.
