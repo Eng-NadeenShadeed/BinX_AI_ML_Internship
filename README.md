@@ -143,12 +143,23 @@ BinX_AI_ML_Internship/
 │   ├── Day1/
 │   │   ├── day1_sprint_planning_baseline.ipynb
 │   │   └── README.md
+│   │
 │   ├── Day2/
 │   │   ├── day2_activations_forward_pass.ipynb
 │   │   └── README.md
+│   │
 │   ├── Day3/
 │   │   ├── day3_training_mechanics.ipynb
 │   │   └── README.md
+│   │
+│   ├── Day4/
+│   │   ├── day4_keras_network.ipynb
+│   │   └── README.md
+│   │
+│   ├── Day5/
+│   │   ├── day5_tuning_sprint_review.ipynb
+│   │   └── README.md
+│   │
 │   └── README.md
 │
 ├── requirements.txt
@@ -284,7 +295,7 @@ BinX_AI_ML_Internship/
 
 ---
 ## Week 6 — Deep Learning (Sprint 1)
- 
+
 ### Topics Covered
 
 - Sprint 1 planning — goal, backlog, definition of done
@@ -298,24 +309,45 @@ BinX_AI_ML_Internship/
 - Gradient descent & the learning rate
 - Optimizers: Adam vs SGD
 - Epochs, batches, and the training loop
+- TensorFlow / Keras and the Sequential API
+- Building and compiling neural networks
+- Dense layers and neural network architecture
+- Training history — loss and accuracy curves
+- Batch Normalization for training stability
+- Dropout regularization and overfitting control
+- EarlyStopping and restoring the best model weights
+- Hyperparameter tuning
+- Learning rate tuning
+- Network depth and width tuning
+- Dropout rate tuning
+- Batch size tuning
+- Final tuned neural network
+- Test set evaluation
+- Neural Network vs Random Forest comparison
+- Sprint Review and Retrospective
 
 ### Progress
 
 - [x] Day 1 — Sprint Planning, NN Foundations & Baseline
 - [x] Day 2 — Activations & Forward Propagation
 - [x] Day 3 — Backpropagation, Gradient Descent & Optimizers
-- [ ] Day 4 — Building & Training a Network in Keras
-- [ ] Day 5 — Tuning, EarlyStopping & Sprint Review
+- [x] Day 4 — Building & Training a Network in Keras
+- [x] Day 5 — Tuning, EarlyStopping & Sprint Review
+
+**Sprint 1 Complete ✓**
+
 ---
- 
+
 ## Environment Setup
- 
+
 **Python Version:** 3.11
- 
+
 **Main Libraries:**
+
 - NumPy, Pandas, Matplotlib, Seaborn, SciPy
 - Scikit-learn
 - TensorFlow 2.21
+- Keras
 - Jupyter Notebook
 
 ---
@@ -324,4 +356,3 @@ BinX_AI_ML_Internship/
 
 ```bash
 pip install -r requirements.txt
-```
