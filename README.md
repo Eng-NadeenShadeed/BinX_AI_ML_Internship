@@ -119,25 +119,24 @@ BinX_AI_ML_Internship/
 │
 ├── Week5/
 │   ├── Day1/
-│   ├── day1_kmeans_clustering.ipynb
-│   ├── Hands_On_Lab.ipynb
+│   │   ├── day1_kmeans_clustering.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day2/
+│   │   ├── day2_dbscan_hierarchical.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day3/
+│   │   ├── day3_pca.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day4/
+│   │   ├── day4_tsne_anomaly.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   └── README.md
+│   ├── Day5/
+│   │   └── Cardiac_Patient_Monitoring_System_Project_Roadmap_README.md
 │   └── README.md
-├── Day2/
-│   ├── day2_dbscan_hierarchical.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day3/
-│   ├── day3_pca.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day4/
-│   ├── day4_tsne_anomaly.ipynb
-│   ├── Hands_On_Lab.ipynb
-│   └── README.md
-├── Day5/
-│   ├──Cardiac_Patient_Monitoring_System_Project_Roadmap_README.
-│   
-└── README.md
 │
 ├── Week6/
 │   ├── Day1/
