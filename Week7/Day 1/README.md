@@ -19,7 +19,6 @@ Day1/
     └── Malignant/ # 5,601 images
 
 ```
-
 ## Topics Covered
 - Sprint 2 planning — dataset change rationale and new experiment log
 - Why dense networks fail on images — parameter count and no spatial awareness
