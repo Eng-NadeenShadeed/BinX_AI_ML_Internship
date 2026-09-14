@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🌸 Week 9 — Day 1
 
 ## Sprint 4 Planning & Model Serialization
@@ -5,6 +7,8 @@
 **Serializing the trained CNN model and preparing it for production deployment.**
 
 ![WEEK 9](https://img.shields.io/badge/WEEK%209-f8a5c2?style=flat-square) ![DAY 1](https://img.shields.io/badge/DAY%201-C44569?style=flat-square&logoColor=white) ![SERIALIZATION](https://img.shields.io/badge/SERIALIZATION-8B1E3F?style=flat-square&logoColor=white) ![MELANOMA](https://img.shields.io/badge/MELANOMA-C44569?style=flat-square&logoColor=white) ![KERAS](https://img.shields.io/badge/KERAS-f8a5c2?style=flat-square)
+
+</div>
 
 ---
 
