@@ -14,4 +14,5 @@ Week8/Day 2/Data/glove/
 Week8/Day 1/Data
 Week8/Day 3/Data
 *.keras
+!Week9/Day 4/deployment/melanoma_cnn.keras
 E:\BinX_AI_ML_Internship\Week9\Day 1\models
