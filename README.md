@@ -13,7 +13,7 @@
 
 This repository contains my work, notes, hands-on labs, and mini-projects completed during the **BinX Tech Artificial Intelligence & Machine Learning Internship**. Each week focuses on a different stage of the machine learning pipeline, combining theoretical concepts with practical implementation in Jupyter Notebooks.
 
-**---**
+
 
 <div align="center">
 
@@ -24,15 +24,15 @@ This repository contains my work, notes, hands-on labs, and mini-projects comple
 ```text
 
 BinX_AI_ML_Internship/
-
+|
 │
-
+|
 ├── Cardiac_Project/               
 │   ├── Data/
 │   │   ├── cardio_train.csv       ← Sprint 2 dataset (70,000 patients)
 │   │   └── heart.csv              ← Sprint 1 dataset (918 patients)
 │   └── README.md
-
+|
 ├── Week1/
 │   ├── Day1/
 │   │   ├── day1_environment_setup.ipynb
@@ -59,7 +59,7 @@ BinX_AI_ML_Internship/
 │   │   ├── week1_mini_project.ipynb
 │   │   └── README.md
 │   └── README.md
-
+|
 ├── Week2/
 │   ├── Day1/
 │   │   ├── data/insurance.csv
@@ -85,7 +85,7 @@ BinX_AI_ML_Internship/
 │   │   ├── Hands_On_Lab.ipynb
 │   │   └── README.md
 │   └── README.md
-
+|
 ├── Week3/
 │   ├── Day1/
 │   │   ├── day1_supervised_learning_basics.ipynb
@@ -111,7 +111,7 @@ BinX_AI_ML_Internship/
 │   │   ├── Hands_On_Lab.ipynb
 │   │   └── README.md
 │   └── README.md
-
+|
 ├── Week4/
 │   ├── Day1/
 │   │   ├── day1_train_val_test_splits.ipynb
@@ -155,7 +155,7 @@ BinX_AI_ML_Internship/
 │   ├── Day5/
 │   │   └── Cardiac_Patient_Monitoring_System_Project_Roadmap_README.md
 │   └── README.md
-
+|
 ├── Week6/
 │   ├── Day1/
 │   │   ├── day1_sprint_planning_baseline.ipynb
@@ -178,7 +178,7 @@ BinX_AI_ML_Internship/
 │   │   └── README.md
 │   │
 │   └── README.md
-
+|
 ├── Week7/
 │   ├── Day 1/
 │   │   ├── day1_sprint2_planning_cnn_intro.ipynb
@@ -200,7 +200,31 @@ BinX_AI_ML_Internship/
 │   │   ├── day5_sprint2_review.ipynb
 │   │   └── README.md
 │   └── README.md
-
+├── Week8/
+│   ├── Day 1/
+│   │   ├── Data/
+│   │   │   └── mtsamples.csv
+│   │   ├── day1_sprint_planning_nlp_pre...
+│   │   └── README.md
+│   ├── Day 2/
+│   │   ├── Data\glove/
+│   │   │   └── glove.6B.100d.txt
+│   │   ├── day2_tfidf_embeddings.ipynb
+│   │   └── README.md
+│   ├── Day 3/
+│   │   ├── Data/
+│   │   │   ├── test/
+│   │   │   ├── train/
+│   │   │   └── val/
+│   │   ├── day3_computer_vision_prepro...
+│   │   └── README.md
+│   ├── Day 4/
+│   │   ├── day4_pipeline_error_analysis.i...
+│   │   └── README.md
+│   ├── Day 5/
+│   │   ├── day5_shap_sprint_review.ipynb
+│   │   └── README.md
+│   └── README.md
 ├── Week9/
 │   ├── Day 1/
 │   │   ├── models/
@@ -210,9 +234,10 @@ BinX_AI_ML_Internship/
 │   │   ├── Hands_On_Lab.ipynb
 │   │   ├── README.md
 │   │   └── requirements.txt
+│   │
 │   ├── Day 2/
 │   │   ├── app/
-│   │   │   ├── **pycache**
+│   │   │   ├── **pycache**/
 │   │   │   └── main.py
 │   │   ├── day2_fastapi_serving.ipynb
 │   │   ├── Hands_On_Lab.ipynb
@@ -222,6 +247,7 @@ BinX_AI_ML_Internship/
 │   │   ├── image-4.png
 │   │   ├── image.png
 │   │   └── README.md
+│   │
 │   ├── Day 3/
 │   │   ├── app/
 │   │   │   └── streamlit_app.py
@@ -234,17 +260,25 @@ BinX_AI_ML_Internship/
 │   │   ├── Screenshot 2026-09-15 19550...
 │   │   ├── Screenshot 2026-09-15 19555...
 │   │   └── Screenshot 2026-09-15 19560...
-│   └── Day 4/
-│       ├── deployment/
-│       │   ├── app.py
-│       │   └── melanoma_cnn.keras
-│       ├── day4_public_deployment.ipynb
-│       ├── Hands_On_Lab.ipynb
-│       ├── image-1.png
-│       ├── image.png
-│       ├── README.md
-│       └── requirements.txt
-
+│   │
+│   ├── Day 4/
+│   │   ├── deployment/
+│   │   │   ├── app.py
+│   │   │   └── melanoma_cnn.keras
+│   │   ├── day4_public_deployment.ipynb
+│   │   ├── Hands_On_Lab.ipynb
+│   │   ├── image-1.png
+│   │   ├── image.png
+│   │   ├── README.md
+│   │   └── requirements.txt
+│   │
+│   ├── Day 5/
+│   │   ├── day5_repository_polish_dod.ipynb
+│   │   ├── README.md
+│   │   └── Technical Write-Up
+│   │
+│   └── README.md
+│
 ├── requirements.txt
 ├── requirements-full.txt
 ├── .gitignore
@@ -252,7 +286,7 @@ BinX_AI_ML_Internship/
 
 ```
 
-**---**
+
 
 # Week 1 — Python & Data Science Foundations
 
@@ -275,7 +309,7 @@ BinX_AI_ML_Internship/
 * [x] Day 5 — Matplotlib
 * [x] Week 1 Mini Project
 
-**---**
+---
 
 # Week 2 — Math Foundations & Exploratory Data Analysis
 
@@ -298,7 +332,7 @@ BinX_AI_ML_Internship/
 * [x] Day 4 — EDA Part 1: Distributions & Outliers
 * [x] Day 5 — EDA Part 2: Bivariate Analysis & Correlation **(Graded Milestone)**
 
-**---**
+---
 
 # Week 3 — Supervised Learning
 
@@ -329,7 +363,7 @@ BinX_AI_ML_Internship/
 * [x] Day 4 — Trees, Forests, SVMs & k-NN
 * [x] Day 5 — End-to-End Heart Disease Prediction Mini Project
 
-**---**
+---
 
 # Week 4 — Model Evaluation & Optimization
 
@@ -353,9 +387,7 @@ BinX_AI_ML_Internship/
 * [x] Day 4 — Feature Engineering & Hyperparameter Tuning
 * [x] Day 5 — Scikit-learn Pipelines **(Graded Milestone)**
 
-**---**
-
-**---**
+---
 
 # Week 5 — Unsupervised Learning
 
@@ -380,7 +412,7 @@ BinX_AI_ML_Internship/
 * [x] Day 4 — t-SNE & Anomaly Detection
 * [x] Day 5 — Phase 3 Project Selection & Sprint Planning
 
-**---**
+---
 
 ## Week 6 — Deep Learning (Sprint 1)
 
@@ -424,7 +456,7 @@ BinX_AI_ML_Internship/
 
 **Sprint 1 Complete ✓**
 
-**---**
+---
 
 ## Week 7 — CNNs, RNNs & Transformers (Sprint 2)
 
@@ -467,7 +499,7 @@ BinX_AI_ML_Internship/
 
 **Sprint 2 Complete ✓**
 
-**---**
+---
 
 ## Week 8 — NLP & Computer Vision (Sprint 3)
 
@@ -531,28 +563,7 @@ BinX_AI_ML_Internship/
 
 **Sprint 3 Complete ✓**
 
-**---**
-
-## Environment Setup
-
-**Python Version:** 3.11
-
-**Main Libraries:**
-
-* NumPy, Pandas, Matplotlib, Seaborn, SciPy
-* Scikit-learn
-* TensorFlow 2.21 / Keras
-* PyTorch
-* Transformers (HuggingFace)
-* NLTK
-* OpenCV
-* SHAP
-* Jupyter Notebook
-
-**---**
-
-** ---**
-
+---
 ## Week 9 — Capstone Deployment & MLOps (Sprint 4)
 
 ### Topics Covered
@@ -635,7 +646,24 @@ Repository Polish & Sprint Review
 
 **Sprint 4 Complete ✓**
 
-**---**
+---
+## Environment Setup
+
+**Python Version:** 3.11
+
+**Main Libraries:**
+
+* NumPy, Pandas, Matplotlib, Seaborn, SciPy
+* Scikit-learn
+* TensorFlow 2.21 / Keras
+* PyTorch
+* Transformers (HuggingFace)
+* NLTK
+* OpenCV
+* SHAP
+* Jupyter Notebook
+
+---
 
 ## Program Progress
 
@@ -650,8 +678,7 @@ Repository Polish & Sprint Review
 | Week 7 | CNNs, RNNs & Transformers — Sprint 2   | ✅ Complete |
 | Week 8 | NLP & Computer Vision — Sprint 3       | ✅ Complete |
 | Week 9 | Capstone Deployment & MLOps — Sprint 4 | ✅ Complete |
-
-**---**
+---
 
 ## Install Requirements
 
