@@ -134,7 +134,7 @@ BinX_AI_ML_Internship/
 │   │   ├── Hands_On_Lab.ipynb
 │   │   └── README.md
 │   └── README.md
-
+|
 ├── Week5/
 │   ├── Day1/
 │   │   ├── day1_kmeans_clustering.ipynb
@@ -160,23 +160,18 @@ BinX_AI_ML_Internship/
 │   ├── Day1/
 │   │   ├── day1_sprint_planning_baseline.ipynb
 │   │   └── README.md
-│   │
 │   ├── Day2/
 │   │   ├── day2_activations_forward_pass.ipynb
 │   │   └── README.md
-│   │
 │   ├── Day3/
 │   │   ├── day3_training_mechanics.ipynb
 │   │   └── README.md
-│   │
 │   ├── Day4/
 │   │   ├── day4_keras_network.ipynb
 │   │   └── README.md
-│   │
 │   ├── Day5/
 │   │   ├── day5_tuning_sprint_review.ipynb
 │   │   └── README.md
-│   │
 │   └── README.md
 |
 ├── Week7/
@@ -200,14 +195,15 @@ BinX_AI_ML_Internship/
 │   │   ├── day5_sprint2_review.ipynb
 │   │   └── README.md
 │   └── README.md
+|
 ├── Week8/
 │   ├── Day 1/
 │   │   ├── Data/
 │   │   │   └── mtsamples.csv
-│   │   ├── day1_sprint_planning_nlp_pre...
+│   │   ├── day1_sprint_planning_nlp_preprocessing.ipynb
 │   │   └── README.md
 │   ├── Day 2/
-│   │   ├── Data\glove/
+│   │   ├── Data/glove/
 │   │   │   └── glove.6B.100d.txt
 │   │   ├── day2_tfidf_embeddings.ipynb
 │   │   └── README.md
@@ -216,15 +212,16 @@ BinX_AI_ML_Internship/
 │   │   │   ├── test/
 │   │   │   ├── train/
 │   │   │   └── val/
-│   │   ├── day3_computer_vision_prepro...
+│   │   ├── day3_computer_vision_preprocessing.ipynb
 │   │   └── README.md
 │   ├── Day 4/
-│   │   ├── day4_pipeline_error_analysis.i...
+│   │   ├── day4_pipeline_error_analysis.ipynb
 │   │   └── README.md
 │   ├── Day 5/
 │   │   ├── day5_shap_sprint_review.ipynb
 │   │   └── README.md
 │   └── README.md
+|
 ├── Week9/
 │   ├── Day 1/
 │   │   ├── models/
@@ -234,51 +231,43 @@ BinX_AI_ML_Internship/
 │   │   ├── Hands_On_Lab.ipynb
 │   │   ├── README.md
 │   │   └── requirements.txt
-│   │
 │   ├── Day 2/
 │   │   ├── app/
-│   │   │   ├── **pycache**/
 │   │   │   └── main.py
 │   │   ├── day2_fastapi_serving.ipynb
 │   │   ├── Hands_On_Lab.ipynb
-│   │   ├── image-1.png
-│   │   ├── image-2.png
-│   │   ├── image-3.png
-│   │   ├── image-4.png
-│   │   ├── image.png
 │   │   └── README.md
-│   │
 │   ├── Day 3/
 │   │   ├── app/
 │   │   │   └── streamlit_app.py
 │   │   ├── day3_streamlit_dashboard.ipynb
 │   │   ├── Hands_On_Lab.ipynb
-│   │   ├── image.png
-│   │   ├── prediction_probabilities.png
-│   │   ├── README.md
-│   │   ├── Screenshot 2026-09-15 19533...
-│   │   ├── Screenshot 2026-09-15 19550...
-│   │   ├── Screenshot 2026-09-15 19555...
-│   │   └── Screenshot 2026-09-15 19560...
-│   │
+│   │   └── README.md
 │   ├── Day 4/
 │   │   ├── deployment/
 │   │   │   ├── app.py
 │   │   │   └── melanoma_cnn.keras
 │   │   ├── day4_public_deployment.ipynb
 │   │   ├── Hands_On_Lab.ipynb
-│   │   ├── image-1.png
-│   │   ├── image.png
 │   │   ├── README.md
 │   │   └── requirements.txt
-│   │
 │   ├── Day 5/
 │   │   ├── day5_repository_polish_dod.ipynb
 │   │   ├── README.md
-│   │   └── Technical Write-Up
-│   │
+│   │   └── technical_writeup.md
 │   └── README.md
-│
+|
+├── Week10/
+│   ├── Melanoma_Capstone/
+│   │   ├── Melanoma_Capstone_Presentation.pptx
+│   │   ├── Melanoma_Capstone_Presentation.html
+│   │   └── README.md
+│   ├── Dalni_Team_Project/
+│   │   ├── Dalni_Presentation.pptx
+│   │   ├── Dalni_Demo.mp4
+│   │   └── README.md
+│   └── README.md
+|
 ├── requirements.txt
 ├── requirements-full.txt
 ├── .gitignore
@@ -286,7 +275,7 @@ BinX_AI_ML_Internship/
 
 ```
 
-
+---
 
 # Week 1 — Python & Data Science Foundations
 
@@ -437,14 +426,6 @@ BinX_AI_ML_Internship/
 * Dropout regularization and overfitting control
 * EarlyStopping and restoring the best model weights
 * Hyperparameter tuning
-* Learning rate tuning
-* Network depth and width tuning
-* Dropout rate tuning
-* Batch size tuning
-* Final tuned neural network
-* Test set evaluation
-* Neural Network vs Random Forest comparison
-* Sprint Review and Retrospective
 
 ### Progress
 
@@ -468,26 +449,24 @@ BinX_AI_ML_Internship/
 * Self-attention, Q/K/V matrices, multi-head attention, positional encoding
 * Transformer families: BERT, DistilBERT, GPT-2
 * Class imbalance handling: class_weight, confusion matrix, classification report
-* Gradio interactive demos
 * Sprint 2 core model: experiment logging, architecture decision
 
 ### Results Summary
 
-| Day   | Task                    | Best Result                               |
-| ----- | ----------------------- | ----------------------------------------- |
-| Day 2 | Melanoma CNN            | Augmented CNN: 88.95% acc, AUC 0.9579     |
-| Day 3 | ECG LSTM                | LSTM + class_weight: 91.14% acc, F1 0.650 |
-| Day 4 | Medical Abstracts NLP   | DistilBERT: 83.61% acc, F1 0.831          |
-| Day 5 | Cardiovascular Sprint 2 | Dense 64→32: F1 0.7191, AUC 0.8023 ✓      |
+| Day | Task | Best Result |
+|-----|------|-------------|
+| Day 2 | Melanoma CNN | Augmented CNN: 88.95% acc, AUC 0.9579 |
+| Day 3 | ECG LSTM | LSTM + class_weight: 91.14% acc, F1 0.650 |
+| Day 4 | Medical Abstracts NLP | DistilBERT: 83.61% acc, F1 0.831 |
+| Day 5 | Cardiovascular Sprint 2 | Dense 64→32: F1 0.7191, AUC 0.8023 ✓ |
 
 ### Sprint 2 Results
 
-|                | Sprint 1             | Sprint 2                       |
-| -------------- | -------------------- | ------------------------------ |
-| Dataset        | heart.csv (918 rows) | cardio_train.csv (70,000 rows) |
-| RF Baseline F1 | 0.9005               | 0.7064                         |
-| Best NN F1     | 0.8670 ✗ lost to RF  | **0.7191 ✓ beat RF**           |
-| Root cause     | Dataset too small    | More data = NN advantage       |
+| | Sprint 1 | Sprint 2 |
+|---|---|---|
+| Dataset | heart.csv (918 rows) | cardio_train.csv (70,000 rows) |
+| RF Baseline F1 | 0.9005 | 0.7064 |
+| Best NN F1 | 0.8670 ✗ lost to RF | **0.7191 ✓ beat RF** |
 
 ### Progress
 
@@ -505,53 +484,32 @@ BinX_AI_ML_Internship/
 
 ### Topics Covered
 
-**NLP Track (Days 1, 2, 4, 5) — MTSamples Medical Transcriptions**
-
-* Sprint 3 planning & backlog
-* NLP preprocessing: tokenization, stop words, POS-aware lemmatization
-* Negation preservation in medical text
+* NLP preprocessing: tokenization, stop words, POS-aware lemmatization, negation preservation
 * Text representation: Bag of Words, TF-IDF, GloVe embeddings
-* TF-IDF vs Word Embeddings — when to use each
-* Hyperparameter search: TfidfVectorizer + Logistic Regression
 * End-to-end NLP pipeline with training/serving skew prevention
-* BiLSTM from scratch
-* DistilBERT fine-tuning with weighted loss
+* BiLSTM from scratch · DistilBERT fine-tuning with weighted loss
 * Three-way model comparison: TF-IDF vs LSTM vs DistilBERT
-* Error analysis & shared misclassification patterns
-* Data quality investigation: class imbalance, label ambiguity
-* SHAP explainability for text classification
-* Sprint 3 review & retrospective
-
-**Computer Vision Track (Day 3) — Chest X-Ray Pneumonia**
-
+* Error analysis & SHAP explainability for text classification
 * Image preprocessing: resize, normalize, augmentation
-* Dataset audit: class distribution, image size variation
-* OpenCV fundamentals: BGR→RGB, resize, pixel normalization
-* CNN from scratch: 3 Conv blocks, EarlyStopping, ReduceLROnPlateau
-* MobileNetV2 transfer learning: frozen base, fine-tuned head
+* CNN from scratch · MobileNetV2 transfer learning
 * Evaluation: Accuracy, Recall, AUC-ROC, Confusion Matrix
 
 ### Results Summary
 
-| Day   | Task                          | Key Result                                                                   |
-| ----- | ----------------------------- | ---------------------------------------------------------------------------- |
-| Day 1 | Medical NLP Preprocessing     | Vocabulary reduced from 70,898 → 32,183                                      |
-| Day 2 | TF-IDF & GloVe                | Compared sparse TF-IDF features with semantic word embeddings                |
-| Day 3 | Computer Vision               | Built CNN and applied transfer learning with MobileNetV2                     |
-| Day 4 | NLP Model Comparison          | Compared TF-IDF, LSTM, and DistilBERT with error analysis                    |
-| Day 5 | Data Quality & Explainability | Investigated data limitations, task complexity, and model behavior with SHAP |
+| Day | Task | Key Result |
+|-----|------|------------|
+| Day 1 | Medical NLP Preprocessing | Vocabulary reduced from 70,898 → 32,183 |
+| Day 2 | TF-IDF & GloVe | Compared sparse TF-IDF with semantic word embeddings |
+| Day 3 | Computer Vision | CNN + MobileNetV2 on Chest X-Ray Pneumonia |
+| Day 4 | NLP Model Comparison | TF-IDF vs LSTM vs DistilBERT with error analysis |
+| Day 5 | Data Quality & SHAP | Investigated data limitations and model behavior |
 
 **Computer Vision — Chest X-Ray Pneumonia**
 
-| Model            | Accuracy | Pneumonia Recall | AUC    |
-| ---------------- | -------- | ---------------- | ------ |
-| CNN from Scratch | 83.01%   | 98.97%           | 0.9401 |
-| MobileNetV2      | 83.49%   | 99.23%           | 0.9690 |
-
-### Datasets
-
-* **MTSamples Medical Transcriptions** — 4,966 clinical reports, 40 specialties
-* **Chest X-Ray Pneumonia** (Kaggle) — 5,856 X-ray images, binary classification
+| Model | Accuracy | Pneumonia Recall | AUC |
+|-------|:--------:|:----------------:|:---:|
+| CNN from Scratch | 83.01% | 98.97% | 0.9401 |
+| MobileNetV2 | 83.49% | 99.23% | 0.9690 |
 
 ### Progress
 
@@ -564,77 +522,31 @@ BinX_AI_ML_Internship/
 **Sprint 3 Complete ✓**
 
 ---
+
 ## Week 9 — Capstone Deployment & MLOps (Sprint 4)
 
 ### Topics Covered
 
-* Sprint 4 planning & deployment backlog
 * Model serialization and reproducibility
-* MLOps principles: pinned dependencies, fixed random seeds, and model versioning
-* Retraining and saving the selected CNN + Data Augmentation model from Week 7 Day 2
-* FastAPI REST API for model serving
-* Image upload handling and input validation
-* Image preprocessing for inference
+* MLOps principles: pinned dependencies, fixed random seeds, model versioning
+* FastAPI REST API for model serving with Pydantic validation
 * Streamlit interactive dashboard
-* Local vs deployed prediction verification
-* Public deployment
-* Repository organization and technical documentation
-* Definition of Done verification
-* Sprint Review & full-project retrospective
+* Public deployment on Streamlit Community Cloud
+* Repository polish and Definition of Done verification
 
-### Model Configuration
+### Model Results
 
-| Parameter                | Value               |
-| ------------------------ | ------------------- |
-| Input Size               | 112 × 112 RGB       |
-| Batch Size               | 64                  |
-| Random Seed              | 42                  |
-| Optimizer                | Adam                |
-| Learning Rate            | 0.001               |
-| Loss                     | Binary Crossentropy |
-| Metrics                  | Accuracy, AUC       |
-| Best Validation Accuracy | 89.39%              |
-| Best Validation AUC      | 0.9597              |
+| Metric | Value |
+|--------|-------|
+| Best val Accuracy | **89.39%** |
+| Best val AUC | **0.9597** |
+| Test Accuracy | 88.95% |
+| Test AUC | 0.9579 |
+| Local vs. Live match | 3/3 ✓ |
 
-### Deployment Pipeline
+### 🔗 Live App
 
-```text
-
-Week 7 Day 2
-
-CNN + Data Augmentation
-
-        ↓
-
-Week 9 Day 1
-
-Model Retraining & Serialization
-
-        ↓
-
-Week 9 Day 2
-
-FastAPI Model Serving
-
-        ↓
-
-Week 9 Day 3
-
-Streamlit Dashboard
-
-        ↓
-
-Week 9 Day 4
-
-Public Deployment
-
-        ↓
-
-Week 9 Day 5
-
-Repository Polish & Sprint Review
-
-```
+**[binxaimlinternship-ahm9zn2cc7ebk8gzw7fzhh.streamlit.app](https://binxaimlinternship-ahm9zn2cc7ebk8gzw7fzhh.streamlit.app/)**
 
 ### Progress
 
@@ -647,45 +559,71 @@ Repository Polish & Sprint Review
 **Sprint 4 Complete ✓**
 
 ---
+
+## Week 10 — Final Evaluation & Wrap-Up
+
+### Individual Capstone — Melanoma Classification
+
+Final presentation of the complete Weeks 7–9 capstone project: CNN-based melanoma image classifier, deployed as a live Streamlit web app.
+
+| | |
+|---|---|
+| **Model** | CNN + Data Augmentation |
+| **Best val AUC** | 0.9597 |
+| **Best val Accuracy** | 89.39% |
+| **Live App** | [binxaimlinternship-ahm9zn2cc7ebk8gzw7fzhh.streamlit.app](https://binxaimlinternship-ahm9zn2cc7ebk8gzw7fzhh.streamlit.app/) |
+
+### Team Project — دلني (Dalni)
+
+Cross-track team capstone with Mobile, Frontend, Cybersecurity, AI, and Backend interns. A personalized travel-discovery platform for Palestine — recommending tourist places based on traveler preferences.
+
+| | |
+|---|---|
+| **My Role** | AI/ML — recommendation model, dataset collection, deployment |
+| **Dataset** | 308 Palestinian tourist attractions (partially collected manually) |
+| **Model** | Content-based · cosine similarity · MMR re-ranking |
+| **AI Service** | [palestine-tourism-recommendation-api.onrender.com](https://palestine-tourism-recommendation-api.onrender.com) |
+
+### Progress
+
+* [x] Individual capstone presentation (Melanoma Classification)
+* [x] Team project presentation & live demo (دلني)
+* [x] Portfolio review & career materials
+* [x] Final grade & certification
+
+**Week 10 Complete ✓**
+
+---
+
 ## Environment Setup
 
 **Python Version:** 3.11
 
-**Main Libraries:**
-
-* NumPy, Pandas, Matplotlib, Seaborn, SciPy
-* Scikit-learn
-* TensorFlow 2.21 / Keras
-* PyTorch
-* Transformers (HuggingFace)
-* NLTK
-* OpenCV
-* SHAP
-* Jupyter Notebook
+**Main Libraries:** NumPy · Pandas · Matplotlib · Seaborn · SciPy · Scikit-learn · TensorFlow 2.21 / Keras · PyTorch · Transformers (HuggingFace) · NLTK · OpenCV · SHAP · FastAPI · Streamlit · Jupyter Notebook
 
 ---
 
 ## Program Progress
 
-| Week   | Topic                                  | Status     |
-| ------ | -------------------------------------- | ---------- |
-| Week 1 | Python & Data Science Foundations      | ✅ Complete |
-| Week 2 | Math Foundations & EDA                 | ✅ Complete |
-| Week 3 | Supervised Learning                    | ✅ Complete |
-| Week 4 | Model Evaluation & Optimization        | ✅ Complete |
-| Week 5 | Unsupervised Learning                  | ✅ Complete |
-| Week 6 | Deep Learning — Sprint 1               | ✅ Complete |
-| Week 7 | CNNs, RNNs & Transformers — Sprint 2   | ✅ Complete |
-| Week 8 | NLP & Computer Vision — Sprint 3       | ✅ Complete |
+| Week | Topic | Status |
+|------|-------|--------|
+| Week 1 | Python & Data Science Foundations | ✅ Complete |
+| Week 2 | Math Foundations & EDA | ✅ Complete |
+| Week 3 | Supervised Learning | ✅ Complete |
+| Week 4 | Model Evaluation & Optimization | ✅ Complete |
+| Week 5 | Unsupervised Learning | ✅ Complete |
+| Week 6 | Deep Learning — Sprint 1 | ✅ Complete |
+| Week 7 | CNNs, RNNs & Transformers — Sprint 2 | ✅ Complete |
+| Week 8 | NLP & Computer Vision — Sprint 3 | ✅ Complete |
 | Week 9 | Capstone Deployment & MLOps — Sprint 4 | ✅ Complete |
+| Week 10 | Final Evaluation & Wrap-Up | ✅ Complete |
+
 ---
 
 ## Install Requirements
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
 ---
